@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS document */
+* {
+        padding:0px;
+        margin:0px;
+}
+h1 {
+        font-family:arial, sens-serif;
+        font-weight:400;
+	padding:5px;
+        height:60px;
+        width:100%;
+        background:#16A5C7;
+        line-height:60px;
+        color:white;
+}
+
+.left_side_var {
+        width:160px;
+        height:2000px;
+        background:#1A8dA9;
+	
+}
+
+.left_side_var a {
+        text-decoration:none;
+        color:white;
+        padding:10px;
+}
+
+.left_side_var ul li {
+        list-style-type:none;
+        position:relative;
+        display:block;
+        width:120px;
+        padding:10px;
+        border-bottom:1px solid #CCC;
+
+}
+
+.left_side_var ul li:hover {
+        background:white;
+        transition:linear all 0.40s;
+        margin-left:5px;
+}
+
+.left_side_var ul li:hover > ul {
+        opacity:1;
+        visibility:visible;
+}
+
+.left_side_var ul ul {
+        transition:linear all 0.30s;
+        position:absolute;
+        visibility:hidden;
+        opacity:0;
+        left:80%;
+        top:-2%;
+        background:#1A8dA9;
+}
+
+.left_side_var ul li a:hover {
+        color:black;
+}
+
+.synonym_view {
+	position:relative;
+	top:-2000px;
+	left:300px;
+}
+
+.synonym_view table {
+	margin-top:30px;
+	margin-left:0px;
+}
+
+.synonym_view table td.ko_word {
+	width:200px;
+}
+.synonym_view table td.en_word {
+        width:200px;
+}
+.synonym_view table td.row_data {
+        width:230px;
+}
+.synonym_view table td.grace {
+        width:100px;
+}
+.synonym_view table td.freq {
+        width:100px;
+}
+
