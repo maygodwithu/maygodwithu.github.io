@@ -3,33 +3,31 @@ body {
 }
 .main {
       max-width: 540px;
-        margin: 70px;
+      margin: 70px;
+      margin-left: 80px;
 }
 h1 {
       font-size: 170%;
 }
-
 .photo {
       float: right;
-               width: 240px;
-                        margin-right: -260px;
-                          border-radius: 3px;
+      width: 180px;
+      margin-right: -260px;
+      border-radius: 3px;
 }
-A {
-
-       TEXT-DECORATION:NONE;
-           COLOR:        #007bb6;
+A{
+     TEXT-DECORATION:NONE;
+     COLOR:        #007bb6;
 } 
 A:visited {
-         TEXT-DECORATION: NONE
-                 COLOR:      #007bb6;
-  }
+     TEXT-DECORATION: NONE
+     COLOR:      #007bb6;
+}
 A:active {
-         TEXT-DECORATION: NONE
-                COLOR: #0000CC;
-  }
+     TEXT-DECORATION: NONE
+     COLOR: #0000CC;
+}
 A:hover {
-         TEXT-DECORATION: NONE;
-             COLOR: #0000CC;
-
-  }
+     TEXT-DECORATION: NONE;
+     COLOR: #0000CC;
+}
